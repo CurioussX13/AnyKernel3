@@ -35,7 +35,7 @@ write /sys/block/mmcblk0/queue/scheduler cfq
 write /sys/block/mmcblk1/queue/scheduler cfq
 
 # Battery
-write /sys/kernel/fast_charge/force_fast_charge 0
+write /sys/kernel/fast_charge/force_fast_charge 1
 
 # Disable slice_idle on supported block devices
 for block in mmcblk0 mmcblk1 dm-0 dm-1 sda; do
