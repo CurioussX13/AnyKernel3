@@ -5,7 +5,7 @@
 # begin properties
 properties() { '
 kernel.string=Clarity Kernel for Xiaomi Redmi Note 4(x) Snapdragon
-do.devicecheck=1
+do.devicecheck=0
 do.modules=0
 do.cleanup=1
 do.cleanuponabort=1
