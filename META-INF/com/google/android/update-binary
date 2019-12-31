@@ -246,11 +246,6 @@ if [ "$supported_lvl" ]; then
     abort " " "Unsupported Android security patch level. Aborting...";
   fi;
 fi;
-
-if [ "$(file_getprop /system/build.prop ro.treble.enabled)" != "true" ]; then
-  abort "Non-treble ROMs are unsupported. Aborting...";
-fi
-
 ui_print "Detecting your ROM...";
 
 if [ "$(file_getprop /system/build.prop ro.product.name)" = "syberia_mido" ]; then
