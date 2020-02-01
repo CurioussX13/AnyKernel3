@@ -5,12 +5,12 @@
 # begin properties
 properties() { '
 kernel.string=Clarity Kernel for Xiaomi Redmi Note 4(x) Snapdragon
-do.devicecheck=0
+do.devicecheck=1
 do.modules=0
 do.cleanup=1
 do.cleanuponabort=1
 device.name1=mido
-supported.versions=8.1.0 - 9
+supported.versions=9 - 10
 supported.patchlevels=
 '; } # end properties
 
