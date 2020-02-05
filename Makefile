@@ -1,8 +1,5 @@
-NAME := Clarity-Kernel
 
-CODE := Mido
-
-ZIP := $(NAME)-$(CODE)-signed.zip
+ZIP := Thy-Kernel.zip
 
 EXCLUDE := Makefile LICENSE *.git* *placeholder* *.md*
 
